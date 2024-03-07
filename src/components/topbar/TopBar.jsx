@@ -1,4 +1,5 @@
 import './TopBar.css'
+import { NavLink } from 'react-router-dom'
 
 const TopBar = () => {
   return (
@@ -11,11 +12,12 @@ const TopBar = () => {
         </div>
         <div className="topCenter">
             <ul className="topList">
-                <li className="topListItem">Home</li>
-                <li className="topListItem">About</li>
-                <li className="topListItem">CONTACT</li>
-                <li className="topListItem">Write</li>
-                <li className="topListItem">LogOut</li>
+      <NavLink to= '/'> <li className="topListItem">Home</li></NavLink>       
+      <NavLink > <li className="topListItem">About</li></NavLink>       
+      <NavLink> <li className="topListItem">Contact</li></NavLink>       
+      <NavLink to='/write'> <li className="topListItem">Write</li></NavLink>       
+      <NavLink> <li className="topListItem">Logout</li></NavLink>       
+                
             </ul>
         </div>
         <div className="topRight">

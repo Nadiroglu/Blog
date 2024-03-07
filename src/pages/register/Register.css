@@ -1,0 +1,52 @@
+.register {
+    height: calc(100vh - 3rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(https://img.freepik.com/premium-photo/abstract-black-textured-background-with-scratches_130265-12474.jpg);
+    background-size: cover;
+}
+
+.registerTitle {
+    font-size: 3rem;
+}
+
+.registerForm {
+    margin-top: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.registerForm > label {
+    margin: 0.7rem 0;
+    color: azure;
+}
+
+.registerForm > input {
+    padding: 0.7rem;
+    border-color: white;
+}
+
+.registerButton {
+    margin-top: 1.4rem;
+    cursor: pointer;
+    background-color: teal; 
+    border: none;
+    color: white;
+    border-radius: 0.7rem;
+    padding: 0.7rem;
+}
+
+.registerLoginButton{
+   position: absolute;
+   top: 4rem;
+   right: 1.4rem;
+   background-color:  lightcoral;
+   cursor: pointer;
+   border: none;
+   padding: 0.7rem;
+   color: azure;
+   border-radius: 0.7rem;
+}   

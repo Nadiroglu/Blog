@@ -6,19 +6,27 @@ import Settings from "./pages/settings/Settings";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 
+const routes = [
+   { 
+    path: '/',
+    element: <Home />
+   },
+   { 
+    path: '/write',
+    element: <Write />
+   },
+   { 
+    path: '/',
+    element: <Home />
+   },
+   { 
+    path: '/',
+    element: <Home />
+   },
+   { 
+    path: '/',
+    element: <Home />
+   },
+]
 
-function App() {
-  return (
-    <>
-    <TopBar /> 
-    {/* <Home/> */}
-    {/* <Single/> */}
-    {/* <Write /> */}
-    {/* <Settings /> */}
-    {/* <Login /> */}
-    <Register />
-    </>
-  );
-}
-
-export default App;
+export default routes;
