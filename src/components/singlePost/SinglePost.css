@@ -1,0 +1,61 @@
+.singlePost {
+    flex: 9;
+}
+
+.singlePostWrapper {
+    padding: 1.5rem;
+    padding-right: 0;
+}
+
+.singlePostImg {
+    width: 100%;
+    height: 20rem ;
+    border-radius: 0.6rem;
+    object-fit: cover;
+}
+
+
+.singlePostTitle {
+    text-align: center;
+    margin: 0.8rem;
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+}
+
+.singlePostEdit{
+    float: right;
+    font-size: 1rem;
+}
+
+.editIcon {
+    margin-left: 0.8rem;
+    cursor: pointer;
+}
+
+.editIcon:first-child {
+    color: teal;
+}
+.editIcon:last-child {
+    color: tomato
+}
+
+.singlePostInfo {
+    margin-bottom: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    color: #b39656
+}
+
+.singlePostDesc{
+    color: #666;
+    font-style: 1.1rem;
+
+}
+
+.singlePostDesc::first-letter{
+    margin-left: 1.3rem;
+    font-size: 3rem;
+    font-weight: 38rem;
+
+}
